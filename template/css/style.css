@@ -25,12 +25,16 @@ body {
 
 }
 
+html {
+  font-size: 62.5%;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+  height: 12vh;
+  background: linear-gradient(to right,#275b52 60%, #f7eee4 40%);
 }
 
 footer {
@@ -38,5 +42,177 @@ footer {
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* Sections
 /*******************************************/
+main {
+  height: 87vh;
+  background: linear-gradient(to right,#275b52 60%, #f7eee4 40%);
+}
+
+main section:first-child {
+  float: left;
+  width: 45%;
+}
+
+
+
+.colored-section {
+  background-color: #c0cece;
+  width: 150px;
+  height: 150px;
+  /* z-index: 2; */
+  /* margin: 6% 6% 0 0; */
+  /* float: right; */
+  position: relative;
+  /* left: 1450px; */
+  bottom: 530px;
+  left: 660px;
+}
+
+.conainer {
+  height: 62vh;
+  /* z-index: 1; */
+  float: right;
+  margin: 5% 8% 0 0;
+  width: 47%;
+}
+
+
+.play-button-container {
+  width: 25%;
+  position: relative;
+  top: 39px;
+  left: 1404px;
+}
+/******************************************
+/* Headings
+/*******************************************/
+.main-heading {
+  margin: 22% 0 0 15%;
+  font-size: 6rem;
+  color: #fff;
+  width: 75%;
+}
+
+
+
+
+/******************************************
+/* Lists
+/*******************************************/
+
+ul {
+  margin: 0 0 0 0;
+  padding: 0;
+  list-style: none;
+  height: 10vh;
+}
+
+li {
+  float: left;
+  margin: 0.8% 14% 0 6.5%;
+}
+
+
+.nav-li {
+  margin: 2.5% 2% 0 0;
+}
+
+.lang-select {
+  margin: 2.7% 0 0 25%;
+}
+
+.cart {
+  width: 6%;
+  margin-left: 1%;
+}
+
+/******************************************
+/* Anchors
+/*******************************************/
+
+li a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/******************************************
+/* Images
+/*******************************************/
+
+main .couch {
+  width: 100%;
+  /* z-index: 3; */
+}
+
+
+.button-img {
+  width: 7%;
+  position: relative;
+  right: 65px;
+  top: 22px;
+}
+
+.shopping-cart{
+  width: 25%;
+}
+
+.play-button-img {
+  width: 22%;
+  position: relative;
+  right: 30px;
+  top: 40px;
+}
+
+/******************************************
+/* forms
+/*******************************************/
+
+.lang-select select {
+  font-size: 1.8rem;
+  background-color: #f7eee4;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+
+.main-button {
+  margin: 5% 0 0 15%;
+  padding: 2.2% 10% 2.2% 2%;
+  background-color: #dfb044;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+}
+
+
+.play-button {
+  margin: 5% 0 0 15%;
+  padding: 5% 10% 5% 8%;
+  background-color: #fff;
+  color: #000000;
+  border: none;
+  font-size: 2.2rem;
+}
+
+/******************************************
+/* spans
+/*******************************************/
+.main-header span {
+  color: #dfb044;
+}
+
+
+/******************************************
+/* Paragraphs
+/*******************************************/
+
+.main-desc {
+  margin: 5% 0 0 15%;
+  font-size: 1.8rem;
+  color: #fff;
+  width: 65%;
+  line-height: 1.5;
+}

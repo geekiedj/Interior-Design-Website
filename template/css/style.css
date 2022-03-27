@@ -171,7 +171,7 @@ main .couch {
 /*******************************************/
 
 .lang-select select {
-  font-size: 1.8rem;
+  font-size: 1.8rem ;
   background-color: #f7eee4;
   color: rgb(0, 0, 0);
   border: none;
@@ -215,4 +215,162 @@ main .couch {
   color: #fff;
   width: 65%;
   line-height: 1.5;
+}
+
+/*  Section 4 */
+body{
+  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
+}
+.four{
+   /*border: 3px solid black;*/
+  width: 50%;
+  height: 520px;
+  margin-top: 5%;
+  float: left;
+}
+.secondSec img, svg{
+  margin: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.secondSec .items span{
+  margin: 45px;
+  margin-top: 5px;
+  text-align: center;
+}
+.picOne{
+  margin-top: 1px;
+  /*border: 3px solid orange;*/
+  height: 30px;
+  width: 30px;
+}
+.line{
+  margin-top: 2px;
+}
+.picTwo{
+  margin-top: 1px;
+  /* border: 3px solid orange;*/
+  height: 30px;
+  width: 40px;
+  padding-left: 5px;
+}
+.picThree{
+  margin-top: 1px;
+  /* border: 3px solid orange;*/
+  height: 30px;
+  width: 45px;
+  padding-left: 15px;
+}
+.picFour{
+  margin-top: 1px;
+  /* border: 3px solid orange;*/
+  height: 30px;
+  width: 50px;
+  padding-left: 20px;
+}
+.picFive{
+  margin-top: 1px;
+  /* border: 3px solid orange;*/
+  height: 30px;
+  width: 30px;
+ /* padding-left: 20px;*/
+}
+
+.thirdSec{
+  /*border: 3px solid orange;*/
+  margin-top: 6%;
+  height: 520px;
+  width: 50%;
+  float: left;
+}
+
+.holder{
+  box-shadow: 5px 5px 5px grey;
+  height: 635px;
+  width: 694px;
+}
+
+.heading1{
+  /*border: 3px solid red;*/
+  height: 160px;
+  width: 80%;
+  margin-left: 9%;
+}
+.heading1 h3{
+  margin-left: 10px;
+  display: inline;
+  font-size: 170%;
+  font-weight: 700;
+}
+.heading1 p{
+  margin-left: 80px;
+  color:grey;
+  font-size: 120%;
+}
+.heading1 img{
+  padding: 0px;
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 6%;
+  /*border: 3px solid orange;*/
+}
+
+.heading2{
+  /*border: 3px solid red;*/
+  height: 170px;
+  width: 80%;
+  margin-left: 9%;
+}
+.heading2 h3{
+  margin-left: 10px;
+  display: inline;
+  font-size: 170%;
+  font-weight: 700;
+}
+.heading2 p{
+  margin-left: 80px;
+  color:grey;
+  font-size: 120%;
+}
+.heading2 img{
+  padding: 0px;
+  margin-top: 35px;
+  margin-left: 40px;
+  display: inline;
+  width: 6%;
+ /* border: 3px solid orange;*/
+}
+
+.heading3{
+  /*border: 3px solid red;*/
+  height: 170px;
+  width: 80%;
+  margin-left: 9%;
+}
+.heading3 h3{
+  margin-left: 10px;
+  display: inline;
+  font-size: 170%;
+  font-weight: 700;
+}
+.heading3 p{
+  margin-left: 80px;
+  color:grey;
+  font-size: 120%;
+}
+.heading3 img{
+  padding: 0px;
+  margin-top: 25px;
+  margin-left: 40px;
+  display: inline;
+  /*border: 3px solid orange;*/
+}
+
+.thirdSec h1{
+  font-size: 250%;
+  margin-left: 15%;
+}
+.thirdSec h1>span{
+  color: teal;
 }
